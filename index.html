@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Booking Application</title>
+</head>
+<body>
+    <div>
+        <div>
+            <form action="reservation.php" method="post">
+                <fieldset>
+                    <legend><h1>Book With Us:</h1></legend>
+                <div class="elem-group">
+                  <label for="name">Your Name:-</label>
+                  <input type="text" id="name" name="visitor_name" placeholder="Your Name Please" pattern=[A-Z\sa-z]{3,20} required>
+                </div>
+                <div class="elem-group">
+                  <label for="email">Your E-mail:-</label>
+                  <input type="email" id="email" name="visitor_email" placeholder="Your Gmail Id Please@gmail.com" required>
+                </div>
+                <div class="elem-group">
+                  <label for="phone">Your Phone No.:-</label>
+                  <input type="tel" id="phone" name="visitor_phone" placeholder="000-0000-000" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                </div>
+                <hr>
+                <div class="elem-group inlined">
+                  <label for="adult">Adults:-</label>
+                  <input type="number" id="adult" name="total_adults" placeholder="1" min="1" required>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="child">Children:-</label>
+                  <input type="number" id="child" name="total_children" placeholder="1" min="0" required>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="checkin-date">Pick-Up Point:-</label>
+                  <select id="room-selection" name="room_preference" required>
+                    <option value="">Choose Route:-</option>
+                    <option value="connecting">Leh Ladakh</option>
+                    <option value="adjoining">Srinagar</option>
+                    <option value="adjacent">Manali</option>
+                    <option value="connecting">Coorg</option>
+                    <option value="adjoining">Andaman</option>
+                    <option value="adjacent">Udaipur</option>
+                    <option value="connecting">Gangtok</option>
+                    <option value="adjoining">Munnar</option>
+                    <option value="adjacent">Goa</option>
+                    <option value="adjacent">Kodaikanal</option>
+                    <option value="connecting">Ooty</option>
+                    <option value="adjoining">Alleppy</option>
+                    <option value="adjacent">Lonavala</option>
+                    <option value="connecting">Lakshwadeep</option>
+                    <option value="adjoining">Varanasi</option>
+                    <option value="adjacent">Jaipur</option>
+                    <option value="connecting">Rishikesh</option>
+                    <option value="adjoining">Darjeeling</option>
+                    <option value="adjacent">Goa</option>
+                    <option value="adjacent">Kodaikanal</option>
+                    <option value="connecting">Agra</option>
+                    <option value="adjoining">Delhi</option>
+                    <option value="adjacent">Kashmir</option>
+                    <option value="connecting">Jaipur</option>
+                    <option value="adjoining">Gadchiroli</option>
+                    <option value="adjacent">Washim</option>
+                    <option value="connecting">New Delhi</option>
+                    <option value="adjoining">Guwahati</option>
+                    <option value="adjacent">Kollam</option>
+                    <option value="adjacent">Ernakulam</option>
+                    <option value="connecting">Hubali</option>
+                    <option value="adjoining">Bengalore</option>
+                </select>
+                </div>
+                <div class="elem-group inlined">
+                  <label for="checkout-date">Drop Location:-</label>
+                  <select id="room-selection" name="room_preference" required>
+                    <option value="">Choose Route:-</option>
+                    <option value="connecting">Leh Ladakh</option>
+                    <option value="adjoining">Srinagar</option>
+                    <option value="adjacent">Manali</option>
+                    <option value="connecting">Coorg</option>
+                    <option value="adjoining">Andaman</option>
+                    <option value="adjacent">Udaipur</option>
+                    <option value="connecting">Gangtok</option>
+                    <option value="adjoining">Munnar</option>
+                    <option value="adjacent">Goa</option>
+                    <option value="adjacent">Kodaikanal</option>
+                    <option value="connecting">Ooty</option>
+                    <option value="adjoining">Alleppy</option>
+                    <option value="adjacent">Lonavala</option>
+                    <option value="connecting">Lakshwadeep</option>
+                    <option value="adjoining">Varanasi</option>
+                    <option value="adjacent">Jaipur</option>
+                    <option value="connecting">Rishikesh</option>
+                    <option value="adjoining">Darjeeling</option>
+                    <option value="adjacent">Goa</option>
+                    <option value="adjacent">Kodaikanal</option>
+                    <option value="connecting">Agra</option>
+                    <option value="adjoining">Delhi</option>
+                    <option value="adjacent">Kashmir</option>
+                    <option value="connecting">Jaipur</option>
+                    <option value="adjoining">Gadchiroli</option>
+                    <option value="adjacent">Washim</option>
+                    <option value="connecting">New Delhi</option>
+                    <option value="adjoining">Guwahati</option>
+                    <option value="adjacent">Kollam</option>
+                    <option value="adjacent">Ernakulam</option>
+                    <option value="connecting">Hubali</option>
+                    <option value="adjoining">Bengalore</option>
+                </select>
+                </div>
+                <div class="elem-group">
+                  <label for="room-selection">Select Room Preference</label>
+                  <select id="room-selection" name="room_preference" required>
+                      <option value="">Choose a Room from the List</option>
+                      <option value="connecting">Connecting</option>
+                      <option value="adjoining">Adjoining</option>
+                      <option value="adjacent">Adjacent</option>
+                  </select>
+                </div>
+                <hr>
+                <div class="elem-group">
+                  <label for="message">Anything Else?</label>
+                  <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                </div>
+                <button type="submit">Book The Rooms</button>
+            </fieldset>
+              </form>
+        </div>
+    </div>
+</body>
+</html>
