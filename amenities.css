@@ -1,0 +1,70 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+/*    box-sizing: border-box;*/
+}
+
+.yel_bg {
+    width: 180px;
+    height: 180px;
+    background-color: #f5ca10;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.ame_ic_name {
+    color: #e16817;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+.row pl_30
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.am1
+{
+    display: flex;
+    align-items: center;
+}
+.am0
+{
+    display: flex;
+    border: 2px solid black;    
+    border-radius: 10px;
+    background-image: linear-gradient(to top,black,grey,lightgray);
+
+
+}
+
+.amd
+{
+    align-items: center;
+    align-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1px;
+/*    background-color:powderblue ;*/
+
+}
+
+.yel_bg:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px black  ;
+}
+.yel_bg
+{
+    border: 2px solid black;
+    padding: 0px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 20px;
+    transition-duration: 2s;
+}

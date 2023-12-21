@@ -1,0 +1,33 @@
+*
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        .contact
+        {
+            background-color: lightgray;
+            height: 300px;
+            text-shadow: 0px 0px 15px royalblue;
+            align-items: center;
+            padding-top: 30px;
+            background-size: 500px;
+            background-position: 10px;
+            /* background-repeat: no-repeat; */
+            margin-left: 0px;
+            background-image: url("https://i.pinimg.com/originals/ec/7b/78/ec7b78ab3079ace000a7bb5ab3f7c583.gif");
+        }
+
+        .middiv
+        {
+            /* background-image: url("https://wallpapercave.com/wp/wp2510496.gif"); */
+            background-size: cover;
+            background-image: linear-gradient(to right,rgb(67, 67, 226),rgb(186, 186, 230));
+        }
+        .addtwo
+        {
+            text-align: center;
+            font-weight: bolder;
+            font-size: larger;
+            font-style: italic;
+            width: 33.33%;
+        }
