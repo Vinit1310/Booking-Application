@@ -1,0 +1,68 @@
+*
+{
+    padding: 0px;
+}
+.ticketsubdiv
+{
+    background-color: lightgrey; 
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 450px;
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15%;
+    margin-top: 100px;
+
+}
+
+.ticketsubsubdiv
+{
+    text-align: center;
+    height: 300px;
+    /* background-image: linear-gradient(to right,rgb(246, 144, 144),rgb(103, 103, 235)); */
+    /* border: 2px solid black; */
+}
+.tickettable1
+{
+    border: 2px solid black;
+    width: 100%;
+}
+.tickettable2
+{
+    border: 2px solid black;
+    width: 100%; 
+    height: 150px;
+}
+
+.ticketleft1
+{
+    width: 70%;
+    height: 30px;
+    /* background-color: gray; */
+}
+
+.ticketleft2
+{
+width:70% ;
+/* background-color: grey; */
+}
+
+.ticketright1
+{
+    color:black;
+}
+
+.ticketright2
+{
+    background-image: url("https://imsinc.ca/wp-content/uploads/2021/02/IMS_LinkedIn.png");
+    width: 20px;
+    background-size: cover;
+    height: 50px;
+}
+
+.dtls
+{
+    text-align: left;
+    padding-left: 40px;
+}

@@ -1,0 +1,48 @@
+*
+{
+    padding: 0px;
+}
+.ticketsubdiv
+{
+    /* background-color: lightgrey; */
+    height: 300px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* border: 3px solid black; */
+    
+
+}
+.ticketname
+{
+    text-align: center;
+}
+
+.ticketsubsubdiv
+{
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(246, 144, 144),rgb(103, 103, 235));
+    /* border: 2px solid black; */
+}
+.ticketform
+{
+    height: 300px;
+    width: 100%;
+    /* background-color: gray; */
+    text-align: center;
+}
+.nameclass
+{
+    padding-left: 620px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.mainnameclass
+{
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to right,rgb(246, 144, 144),rgb(103, 103, 235));
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: larger;
+}

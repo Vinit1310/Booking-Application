@@ -6,7 +6,7 @@
         .contact
         {
             background-color: lightgray;
-            height: 300px;
+            height: 400px;
             text-shadow: 0px 0px 15px royalblue;
             align-items: center;
             padding-top: 30px;
@@ -14,14 +14,20 @@
             background-position: 10px;
             /* background-repeat: no-repeat; */
             margin-left: 0px;
-            background-image: url("https://i.pinimg.com/originals/ec/7b/78/ec7b78ab3079ace000a7bb5ab3f7c583.gif");
+            /* background-image: url("https://i.pinimg.com/originals/ec/7b/78/ec7b78ab3079ace000a7bb5ab3f7c583.gif"); */
+
+        }
+        .mrqmrq
+        {
+            height: 500px;
+            padding-top: 20px;
         }
 
         .middiv
         {
             /* background-image: url("https://wallpapercave.com/wp/wp2510496.gif"); */
             background-size: cover;
-            background-image: linear-gradient(to right,rgb(67, 67, 226),rgb(186, 186, 230));
+            background-image: linear-gradient(to right,rgb(122, 113, 113),rgb(240, 231, 231),rgb(122, 113, 113));
         }
         .addtwo
         {
@@ -30,4 +36,33 @@
             font-size: larger;
             font-style: italic;
             width: 33.33%;
+            background-image: url("https://img-va.myshopline.com/image/store/1680510886038/AIR-4K-6s.gif?w=720&h=720");
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
+        .mrqimg
+        {
+            height: 250px;
+            width: 400px;
+            background-size: cover;
+            margin-left: 40px;
+            border: 2px solid black;
+            border-radius: 20px;
+            transition-duration: 2s;
+        }
+        .mrqimg:hover
+        {
+            transform:scale(1.1);
+            border-radius: 20px;
+            box-shadow: 0px 0px 50px blueviolet;
+        }
+
+        /* .innermiddiv
+        {
+            width: 100%;
+            background-image: url("https://www.bhmpics.com/downloads/tourist-bus-Wallpapers/5.white-bus-driving-along-the-asphalt-road-at-sunset.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
+        
